@@ -1,0 +1,99 @@
+@import url("https://rsms.me/inter/inter.css");
+
+@font-face {
+  font-family: "Apex";
+  src: url("/fonts/ApexMk2-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ApexBold";
+  src: url("/fonts/ApexMk2-BoldExtended.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ApexLight";
+  src: url("/fonts/ApexMk2-LightCondensed.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Vindica";
+  src: url("/fonts/Vindica.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root,
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+:root {
+  font-family: Apex;
+  letter-spacing: 0.75px;
+  font-size: 62.5%;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+body {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+h1 {
+  line-height: 0.9;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h2 {
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+
+h3 {
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+
+h4 {
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}

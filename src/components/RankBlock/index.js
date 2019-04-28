@@ -1,9 +1,11 @@
-import * as React from 'react';
+import * as React from 'react'
 
-import * as Layout from '../common/Layout';
-import * as Styled from './RankBlock.style';
+import * as Layout from '../common/Layout'
+import * as Styled from './RankBlock.style'
 
-export const RankBlock = props => {
+// TODO: Show intuitive indicator of "losses until rank drop"
+
+export const RankBlock = (props) => {
   return (
     <Styled.Container>
       <Layout.Row>
@@ -18,7 +20,9 @@ export const RankBlock = props => {
         <Styled.Stats>
           <Styled.Stat>
             <Styled.Label>rank</Styled.Label>
-            <Styled.Data>{props.rank}</Styled.Data>
+            <Styled.Data>
+              {props.rank === null ? 'N/A' : props.rank}
+            </Styled.Data>
           </Styled.Stat>
 
           <Styled.Stat>
@@ -33,12 +37,12 @@ export const RankBlock = props => {
 
           <Styled.Stat>
             <Styled.Label>win</Styled.Label>
-            <Styled.Data>{props.win}</Styled.Data>
+            <Styled.Data>{props.wins}</Styled.Data>
           </Styled.Stat>
 
           <Styled.Stat>
             <Styled.Label>loss</Styled.Label>
-            <Styled.Data>{props.loss}</Styled.Data>
+            <Styled.Data>{props.losses}</Styled.Data>
           </Styled.Stat>
 
           <Styled.Stat>
@@ -48,8 +52,8 @@ export const RankBlock = props => {
         </Styled.Stats>
       </Layout.Column>
     </Styled.Container>
-  );
-};
+  )
+}
 
 // {
 // name: 'The Corn Ninja',

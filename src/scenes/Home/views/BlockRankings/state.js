@@ -1,39 +1,52 @@
-import * as React from 'react';
+import * as React from 'react'
 
-export const useState = players => {
-  const [query, setQuery] = React.useState('');
-  const [leagues, setLeagues] = React.useState([]);
-  const [filteredPlayers, setFilteredPlayers] = React.useState(players);
+export const useState = () => {
+  const [players, setPlayers] = React.useState([])
+  const [query, setQuery] = React.useState('')
+  const [leagues, setLeagues] = React.useState([])
+  const [filteredPlayers, setFilteredPlayers] = React.useState(players)
+
+  const fetchPlayers = async () => {
+    const result = await fetch('/players')
+    const data = await result.json()
+    setPlayers(data)
+  }
 
   React.useEffect(() => {
-    const filteredPlayers = players.filter(player => {
-      const lowerName = player.name.toLowerCase();
-      const lowerQuery = query.toLowerCase();
-      const hasLeagueFilters = leagues.length;
-      const hasSearchQuery = query.length;
-      const matchesLeagueFilter = leagues.includes(player.league);
-      const matchesSearchQuery = lowerName.includes(lowerQuery);
+    fetchPlayers()
+  }, [])
 
-      return (
-        (!hasLeagueFilters || matchesLeagueFilter) &&
-        (!hasSearchQuery || matchesSearchQuery)
-      );
-    });
+  React.useEffect(() => {
+    if (players.length) {
+      const filteredPlayers = players.filter((player) => {
+        const lowerName = player.name.toLowerCase()
+        const lowerQuery = query.toLowerCase()
+        const hasLeagueFilters = leagues.length
+        const hasSearchQuery = query.length
+        const matchesLeagueFilter = leagues.includes(player.league)
+        const matchesSearchQuery = lowerName.includes(lowerQuery)
 
-    setFilteredPlayers(filteredPlayers);
-  }, [leagues, query, players]);
+        return (
+          (!hasLeagueFilters || matchesLeagueFilter) &&
+          (!hasSearchQuery || matchesSearchQuery)
+        )
+      })
+
+      setFilteredPlayers(filteredPlayers)
+    }
+  }, [leagues, query, players])
 
   const state = {
     query,
     leagues,
-    filteredPlayers,
-  };
+    filteredPlayers
+  }
 
   const stateActions = {
     setLeagues,
     setQuery,
-    setFilteredPlayers,
-  };
+    setFilteredPlayers
+  }
 
-  return [state, stateActions];
-};
+  return [state, stateActions]
+}

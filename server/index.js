@@ -1,19 +1,39 @@
-const server = require('server');
-const { get, post } = server.router;
-const { file, redirect } = server.reply;
+import multer from 'multer'
+import bodyParser from 'body-parser'
+import morgan from 'morgan'
+import express from 'express'
+import makeDir from 'make-dir'
 
-server(
-  { port: 4444 },
-  [
-    ctx => 'made itttt',
-    get('*', ctx => {
-      console.log('/')
-      return 'made it'
-    }),
-    post('/screenshots', ctx => {
-      // Show the submitted data on the console:
-      console.log(ctx.data);
-      return json({ worked: true })
-    })
-  ]
-);
+import * as players from './routes/players'
+import * as screenshots from './routes/screenshots'
+
+const app = express()
+
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
+app.use(morgan('dev'))
+
+const generateFilename = async (request, file, callback) => {
+  const { identifier, filename } = request.params
+  await makeDir(`uploads/${identifier}`)
+  callback(null, `${identifier}/${filename}.png`)
+}
+
+const upload = multer({
+  storage: multer.diskStorage({
+    destination: 'uploads/',
+    filename: generateFilename
+  })
+})
+
+app.get('/', (request, response) => {
+  response.send('made it!')
+})
+
+app.get('/players', players.get)
+
+app.post('/screenshots/:identifier/:filename', upload.any(), screenshots.post)
+
+app.listen(3001, () => {
+  console.log('listening @ http://localhost:3001')
+})

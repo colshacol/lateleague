@@ -1,0 +1,574 @@
+{
+  "players": [
+    {
+      "name": "The Corn Ninja",
+      "league": "silver",
+      "rank": 1,
+      "lp": 0,
+      "streak": -1,
+      "mmr": 350,
+      "twitch": "https://twitch.tv/thecornninja",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "name": "T Rich Da King",
+      "league": "silver",
+      "rank": 2,
+      "lp": 15,
+      "streak": 1,
+      "mmr": 300,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6"
+    },
+    {
+      "name": "Ace B S1lentND1",
+      "league": "silver",
+      "rank": 2,
+      "lp": 11,
+      "streak": 1,
+      "mmr": 300,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "name": "Regresser TTV",
+      "league": "silver",
+      "rank": 2,
+      "lp": 7,
+      "streak": 2,
+      "mmr": 300,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+      "name": "Silva",
+      "league": "silver",
+      "rank": 2,
+      "lp": 2,
+      "streak": -1,
+      "mmr": 300,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+    },
+    {
+      "name": "PriestXYZ",
+      "league": "silver",
+      "rank": 2,
+      "lp": 1,
+      "streak": -3,
+      "mmr": 300,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/43.jpg"
+    },
+    {
+      "name": "ASpence501",
+      "league": "silver",
+      "rank": 3,
+      "lp": 15,
+      "streak": -1,
+      "mmr": 250,
+      "twitch": "",
+      "avatar": "https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg"
+    },
+    {
+      "name": "i robot9000",
+      "league": "silver",
+      "rank": 3,
+      "lp": 15,
+      "streak": 1,
+      "mmr": 250,
+      "twitch": "",
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb"
+    },
+    {
+      "name": "Saintz the God",
+      "league": "silver",
+      "rank": 3,
+      "lp": 12,
+      "streak": -2,
+      "mmr": 250,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+      "name": "MysticalNovice",
+      "league": "silver",
+      "rank": 3,
+      "lp": 12,
+      "streak": -2,
+      "mmr": 250,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=a72ca28288878f8404a795f39642a46f"
+    },
+    {
+      "name": "Gilded Grams",
+      "league": "silver",
+      "rank": 3,
+      "lp": 0,
+      "streak": -1,
+      "mmr": 250,
+      "twitch": "",
+      "avatar": "https://pbs.twimg.com/profile_images/1079706442763067392/wuaeGZnN.jpg"
+    },
+    {
+      "name": "Liion Wiins",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 15,
+      "streak": 4,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/97.jpg"
+    },
+    {
+      "name": "SILV3Rl34CK",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 15,
+      "streak": 2,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNTAzMTA4OTJeQTJeQWpwZ15BbWU3MDA4NDI2Njk@._V1_UX172_CR0,0,172,256_AL_.jpg"
+    },
+    {
+      "name": "xxRebs",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 15,
+      "streak": 3,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/26.jpg"
+    },
+    {
+      "name": "imShad",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 15,
+      "streak": 1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://tinyfac.es/data/avatars/B0298C36-9751-48EF-BE15-80FB9CD11143-500w.jpeg"
+    },
+    {
+      "name": "PoisonxPoptart",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 15,
+      "streak": 1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://tinyfac.es/data/avatars/7D3FA6C0-83C8-4834-B432-6C65ED4FD4C3-500w.jpeg"
+    },
+    {
+      "name": "AtoneMilitant",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 14,
+      "streak": 1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/17.jpg"
+    },
+    {
+      "name": "El Diablo X230X",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 11,
+      "streak": 2,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg"
+    },
+    {
+      "name": "Invayda Zim",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 8,
+      "streak": -1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://pbs.twimg.com/profile_images/1055263632861343745/vIqzOHXj.jpg"
+    },
+    {
+      "name": "iTREE",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 8,
+      "streak": -3,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=b616b2c5b373a80ffc9636ba24f7a4a9"
+    },
+    {
+      "name": "Its Rainin MenZ",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 7,
+      "streak": -3,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/47.jpg"
+    },
+    {
+      "name": "TnTaylor",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 7,
+      "streak": -1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/86.jpg"
+    },
+    {
+      "name": "Elementary",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 6,
+      "streak": 2,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=d5849d81af587a09dbcf3f11f6fa122f"
+    },
+    {
+      "name": "Blootzy",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 2,
+      "streak": 0,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/63.jpg"
+    },
+    {
+      "name": "AJ DaJuiceMayne",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/61.jpg"
+    },
+    {
+      "name": "l TRICKK l",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 0,
+      "streak": -1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1476493279419-b785d41e38d8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=61eaea85f1aa3d065400179c78163f15"
+    },
+    {
+      "name": "ThumpingHawk",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 0,
+      "streak": 3,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BODFjZTkwMjItYzRhMS00OWYxLWI3YTUtNWIzOWQ4Yjg4NGZiXkEyXkFqcGdeQXVyMTQ0ODAxNzE@._V1_UX172_CR0,0,172,256_AL_.jpg"
+    },
+    {
+      "name": "yLuxe",
+      "league": "bronze",
+      "rank": 1,
+      "lp": 0,
+      "streak": -1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NjYzMzE1MV5BMl5BanBnXkFtZTgwNTA4NDY4OTE@._V1_UX172_CR0,0,172,256_AL_.jpg"
+    },
+    {
+      "name": "Yuhxi",
+      "league": "bronze",
+      "rank": 1,
+      "lp": -6,
+      "streak": -1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://tinyfac.es/data/avatars/26CFEFB3-21C8-49FC-8C19-8E6A62B6D2E0-200w.jpeg"
+    },
+    {
+      "name": "NKOTB4evah",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 13,
+      "streak": -2,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxNTExMzUzOF5BMl5BanBnXkFtZTgwOTI1MjA3OTE@._V1_UX172_CR0,0,172,256_AL_.jpg"
+    },
+    {
+      "name": "Myst The Cold",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 12,
+      "streak": -2,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3759e09a5b9fbe53088b23c615b6312e"
+    },
+    {
+      "name": "ActiveHate",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 10,
+      "streak": -3,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1498529605908-f357a9af7bf5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=047fade70e80ebb22ac8f09c04872c40"
+    },
+    {
+      "name": "Juc",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 8,
+      "streak": 2,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=73a9df4b7bd1b330db1e903e08575ec1"
+    },
+    {
+      "name": "ArmanMaNarma",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 8,
+      "streak": 2,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/91.jpg"
+    },
+    {
+      "name": "Liquid Nitrogen",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 2,
+      "streak": -2,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/21.jpg"
+    },
+    {
+      "name": "MuNgO PuNgO",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 2,
+      "streak": -1,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "name": "NecessaryEvil10",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 1,
+      "streak": -1,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "name": "Dru Herk",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 0,
+      "streak": -3,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1502378735452-bc7d86632805?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=aa3a807e1bbdfd4364d1f449eaa96d82"
+    },
+    {
+      "name": "The Eastbrook",
+      "league": "bronze",
+      "rank": 2,
+      "lp": 0,
+      "streak": -1,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://pbs.twimg.com/profile_images/584098247641300992/N25WgvW_.png"
+    },
+    {
+      "name": "Melvishdon",
+      "league": "placements",
+      "rank": null,
+      "lp": 3,
+      "streak": 0,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?h=350&auto=compress&cs=tinysrgb"
+    },
+    {
+      "name": "Anubis1632",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://pbs.twimg.com/profile_images/974603248119222272/N5PLzyan.jpg"
+    },
+    {
+      "name": "ixPanthro",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/78.jpg"
+    },
+    {
+      "name": "oScet",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=74daec1914d1d105202bca8a310a6a71"
+    },
+    {
+      "name": "Sab",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": -1,
+      "mmr": 200,
+      "twitch": "",
+      "avatar": "https://pbs.twimg.com/profile_images/969073897189523456/rSuiu_Hr.jpg"
+    },
+    {
+      "name": "BlueCollarKid",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1509868918748-a554ad25f858?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3159ec467959b2aada4b75d565c270aa"
+    },
+    {
+      "name": "Caleb Loves You",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+    },
+    {
+      "name": "halfbreed105",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "name": "Rage More Nerd",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMjA0ODk1OF5BMl5BanBnXkFtZTcwMTA4ODM3OQ@@._V1_UY256_CR5,0,172,256_AL_.jpg"
+    },
+    {
+      "name": "Twitchtvsnipezz",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": -1,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/women/95.jpg"
+    },
+    {
+      "name": "x Zeg x",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 150,
+      "twitch": "",
+      "avatar": "https://images.unsplash.com/photo-1506085452766-c330853bea50?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3e378252a934e660f231666b51bd269a"
+    },
+    {
+      "name": "blim",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100,
+      "twitch": "",
+      "avatar": "https://pbs.twimg.com/profile_images/953000038967468033/n4Ngwvi7.jpg"
+    },
+    {
+      "name": "Cofrog",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100,
+      "twitch": "",
+      "avatar": "https://pbs.twimg.com/profile_images/1099856449918943232/hKv3Fddh.jpg"
+    },
+    {
+      "name": "I Mach One I",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": -3,
+      "mmr": 100,
+      "twitch": "",
+      "avatar": "https://randomuser.me/api/portraits/men/36.jpg"
+    },
+    {
+      "name": "IRONBOUNDMOON",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100,
+      "twitch": "",
+      "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?h=350&auto=compress&cs=tinysrgb"
+    },
+    {
+      "name": "the man canon",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100,
+      "twitch": "",
+      "avatar": "https://tinyfac.es/data/avatars/1C4EEDC2-FE9C-40B3-A2C9-A038873EE692-200w.jpeg"
+    },
+    {
+      "name": "x Greenthumb",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100,
+      "twitch": "",
+      "avatar": "https://images.pexels.com/photos/61100/pexels-photo-61100.jpeg?h=350&auto=compress&cs=tinysrgb"
+    },
+    {
+      "name": "myjspec",
+      "league": "placements",
+      "rank": null,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100,
+      "twitch": "",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWViYjUzOWMtMzRkZi00MjNkLTk4M2ItMTVkMDg5MzE2ZDYyXkEyXkFqcGdeQXVyODQwNjM3NDA@._V1_UY256_CR36,0,172,256_AL_.jpg"
+    }
+  ]
+}

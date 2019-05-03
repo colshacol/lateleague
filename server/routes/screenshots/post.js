@@ -6,19 +6,22 @@ import * as text from '../../text/processor'
 
 const handleImageBuffer = async (error, data, info) => {
   if (error) throw new Error(error)
-
   const client = new vision.ImageAnnotatorClient()
-  const [result] = await client.textDetection(data)
 
-  const [winners, losers] = text.parsePlayerNames(result.textAnnotations)
+  try {
+    const [result] = await client.textDetection(data)
+    const [winners, losers] = text.parsePlayerNames(result.textAnnotations)
 
-  winners.forEach((winner) => {
-    updaters.winner(winner)
-  })
+    winners.forEach((winner) => {
+      updaters.winner(winner)
+    })
 
-  losers.forEach((loser) => {
-    updaters.loser(loser)
-  })
+    losers.forEach((loser) => {
+      updaters.loser(loser)
+    })
+  } catch (error) {
+    console.log('ERROR:\n\n', error)
+  }
 }
 
 export const post = async (request, response) => {
@@ -28,10 +31,14 @@ export const post = async (request, response) => {
 
   response.send(request.files[0].filename)
 
-  const playerNamesImage = await croppers.cropPlayerNames({
-    inputPath,
-    outputPath
-  })
+  try {
+    const playerNamesImage = await croppers.cropPlayerNames({
+      inputPath,
+      outputPath
+    })
 
-  playerNamesImage.toBuffer(handleImageBuffer)
+    playerNamesImage.toBuffer(handleImageBuffer)
+  } catch (error) {
+    console.log('ERROR:\n\n', error)
+  }
 }

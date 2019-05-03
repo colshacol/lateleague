@@ -11,6 +11,11 @@ export const PROMO_WINS_REQUIRED = {
   rank: 2
 }
 
+export const PROMO_LOSSES_MAX = {
+  league: 2,
+  rank: 1
+}
+
 export const MMRS = {
   'bronze 3': 100,
   'bronze 2': 150,
@@ -28,10 +33,3 @@ export const POST_PLACEMENTS_LEAGUES = {
   '1-4': ['bronze', '2'],
   '0-5': ['bronze', '3']
 }
-
-// Silver 1: 5-0
-// Silver 2: 4-1
-// Silver 3: 3-2
-// Bronze 1: 2-3
-// Bronze 2: 1-4
-// Bronze 3: 0-5

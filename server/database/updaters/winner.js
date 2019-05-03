@@ -1,7 +1,7 @@
 import * as db from '../'
 
-import { handlePlacementsWinner } from './handlers/handlePlacementsWinner'
-import { handlePromoWinner } from './handlers/handlePromoWinner'
+import { handlePlacementsWinner } from './handlers/placements'
+import { handlePromoWinner } from './handlers/promos'
 
 export const calculateWinnerStreak = (player) => {
   return player.streak >= 0 ? player.streak + 1 : 1
@@ -47,12 +47,14 @@ export const winner = (name) => {
 
   if (player.placements) {
     console.log(`${player.name} won a placements match.`)
+    player.placements.wins += 1
     return handlePlacementsWinner(player)
   }
 
   // handle promo win
   if (player.promos) {
-    console.log(`${player.name} won a promo match.`, player)
+    console.log(`${player.name} won a promo match.`)
+    player.promos.wins += 1
     return handlePromoWinner(player)
   }
 

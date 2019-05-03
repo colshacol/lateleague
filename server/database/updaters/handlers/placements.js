@@ -1,4 +1,4 @@
-import * as db from '../../..'
+import * as db from '../../'
 
 import { POST_PLACEMENTS_LEAGUES, MMRS } from '../consts'
 
@@ -17,7 +17,7 @@ export const handlePlacementsWinner = (player) => {
     const mmr = MMRS[`${league} ${rank}`]
     const placements = undefined
 
-    db.savePlayer({
+    return db.savePlayer({
       ...player,
       placements,
       league,
@@ -26,13 +26,5 @@ export const handlePlacementsWinner = (player) => {
     })
   }
 
-  const placements = {
-    ...player.placements,
-    wins: player.placements.wins + 1
-  }
-
-  db.savePlayer({
-    ...player,
-    placements
-  })
+  db.savePlayer(player)
 }

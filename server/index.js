@@ -30,7 +30,6 @@ app.get('/', (request, response) => {
 })
 
 app.get('/players', players.get)
-
 app.post('/screenshots/:filename', upload.any(), screenshots.post)
 
 app.listen(3001, () => {

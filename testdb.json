@@ -1,0 +1,28 @@
+{
+  "players": [
+    {
+      "name": "AtoneMilitant",
+      "league": "bronze",
+      "rank": 3,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100
+    },
+    {
+      "name": "Dru Herk",
+      "league": "bronze",
+      "rank": 3,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100
+    },
+    {
+      "name": "El Diablo X230X",
+      "league": "silver",
+      "rank": 3,
+      "lp": 0,
+      "streak": 0,
+      "mmr": 100
+    }
+  ]
+}

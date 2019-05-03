@@ -6,50 +6,33 @@ import * as Styled from './RankBlock.style'
 // TODO: Show intuitive indicator of "losses until rank drop"
 
 export const RankBlock = (props) => {
+  const leagueAndRank =
+    props.league === 'placements'
+      ? 'PLACEMENTS'
+      : `${props.league} ${props.rank}`
+
   return (
     <Styled.Container>
-      <Layout.Row>
-        <Styled.Avatar avatar={props.avatar} />
-        <Styled.Name>{props.name}</Styled.Name>
-        <Styled.League league={props.league}>{props.league}</Styled.League>
-        <Styled.ContactIcons>
-          <Styled.TwitchIcon url={props.twitch} />
-        </Styled.ContactIcons>
-      </Layout.Row>
       <Layout.Column>
-        <Styled.Stats>
-          <Styled.Stat>
-            <Styled.Label>rank</Styled.Label>
-            <Styled.Data>
-              {props.rank === null ? 'N/A' : props.rank}
-            </Styled.Data>
-          </Styled.Stat>
+        <Layout.Row>
+          <Styled.Name>
+            <span>#{props.index}</span> {props.name}
+          </Styled.Name>
+        </Layout.Row>
+        <Layout.Row yAlign="center">
+          <Styled.League league={props.league}>{leagueAndRank}</Styled.League>
+          <Styled.Stats>
+            <Styled.Stat>
+              <Styled.StatLabel>lp</Styled.StatLabel>
+              <Styled.StatData>{props.lp}</Styled.StatData>
+            </Styled.Stat>
 
-          <Styled.Stat>
-            <Styled.Label>lp</Styled.Label>
-            <Styled.Data>{props.lp}</Styled.Data>
-          </Styled.Stat>
-
-          <Styled.Stat>
-            <Styled.Label>streak</Styled.Label>
-            <Styled.Data>{props.streak}</Styled.Data>
-          </Styled.Stat>
-
-          <Styled.Stat>
-            <Styled.Label>win</Styled.Label>
-            <Styled.Data>{props.wins}</Styled.Data>
-          </Styled.Stat>
-
-          <Styled.Stat>
-            <Styled.Label>loss</Styled.Label>
-            <Styled.Data>{props.losses}</Styled.Data>
-          </Styled.Stat>
-
-          <Styled.Stat>
-            <Styled.Label>mmr</Styled.Label>
-            <Styled.Data>{props.mmr}</Styled.Data>
-          </Styled.Stat>
-        </Styled.Stats>
+            <Styled.Stat>
+              <Styled.StatLabel>streak</Styled.StatLabel>
+              <Styled.StatData>{props.streak}</Styled.StatData>
+            </Styled.Stat>
+          </Styled.Stats>
+        </Layout.Row>
       </Layout.Column>
     </Styled.Container>
   )

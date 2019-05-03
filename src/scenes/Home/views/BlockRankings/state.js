@@ -7,9 +7,11 @@ export const useState = () => {
   const [filteredPlayers, setFilteredPlayers] = React.useState(players)
 
   const fetchPlayers = async () => {
-    const result = await fetch('/players')
-    const data = await result.json()
-    setPlayers(data)
+    try {
+      const result = await fetch('/players')
+      const data = await result.json()
+      setPlayers(data)
+    } catch (error) {}
   }
 
   React.useEffect(() => {

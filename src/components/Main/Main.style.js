@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-import { colors } from '../../styles/colors';
+import { colors } from '../../styles/colors'
 
 export const Container = styled.div`
   display: flex;
@@ -13,6 +13,7 @@ export const Container = styled.div`
   /* width */
   ::-webkit-scrollbar {
     width: 16px;
+    display: none;
   }
 
   /* Track */
@@ -33,4 +34,4 @@ export const Container = styled.div`
   ::-webkit-scrollbar-thumb:hover {
     background: ${colors.accent0};
   }
-`;
+`

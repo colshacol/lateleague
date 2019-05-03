@@ -1,28 +1,29 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-import { colors } from "../../styles/colors";
+import { colors } from '../../styles/colors'
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  background: #202037;
   width: 100vw;
   height: 60px;
   padding-left: calc(((100vw - 840px) / 2) + 24px);
   padding-right: calc(((100vw - 840px) / 2) + 24px);
-  box-shadow: 0px 2px 16px -2px rgba(0, 0, 0, 0.15);
   z-index: 1;
+
+  background: #14142c;
+  box-shadow: 0px 2px 16px -2px rgba(0, 0, 0, 0.35);
 
   small {
     margin-left: auto;
     margin-right: 12px;
-    font-family: "Dank Mono";
+    font-family: 'Dank Mono';
   }
   .isHomie {
     cursor: pointer;
     color: ${colors.accent0};
   }
-`;
+`
 
 export const Logo = styled.h2`
   cursor: pointer;
@@ -36,7 +37,7 @@ export const Logo = styled.h2`
     font-weight: 300;
     margin-left: 3px;
   }
-`;
+`
 
 export const LoginButton = styled.button`
   display: flex;
@@ -46,17 +47,18 @@ export const LoginButton = styled.button`
   outline: none;
   color: ${colors.light0};
   background: ${colors.accent2};
-  padding: 0 12px;
+  padding: 3px 12px 0px;
   height: 28px;
   font-size: 1.3rem;
-  font-family: "Inter";
+  font-family: 'Inter';
   color: ${colors.light0};
   border-radius: 2px;
   font-weight: 300;
   letter-spacing: 0.75px;
   font-style: italic;
-  font-family: "Apex";
+  font-family: 'Apex';
   text-transform: uppercase;
+  margin-right: 12px;
 
   transition: all 0.3s;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0);
@@ -65,4 +67,4 @@ export const LoginButton = styled.button`
     transform: scale(1.05);
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.35);
   }
-`;
+`

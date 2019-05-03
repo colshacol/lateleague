@@ -1,25 +1,25 @@
-import * as React from 'react';
+import * as React from 'react'
 
-import { Checkbox } from '../../../../../components/common/Checkbox';
+import { Checkbox } from '../../../../../components/common/Checkbox'
 // import * as Layout from '../../../../../components/common/Layout';
 
-import * as Styled from './LeagueFilters.style';
+import * as Styled from './LeagueFilters.style'
 
-export const LeagueFilters = props => {
-  const [state, setState] = React.useState([]);
+export const LeagueFilters = (props) => {
+  const [state, setState] = React.useState([])
 
-  const toggleFilter = filter => {
+  const toggleFilter = (filter) => {
     const newState = state.includes(filter)
-      ? state.filter(item => item !== filter)
-      : [...state, filter];
+      ? state.filter((item) => item !== filter)
+      : [...state, filter]
 
-    setState(newState);
-    props.onChange(newState);
-  };
+    setState(newState)
+    props.onChange(newState)
+  }
 
   return (
     <Styled.Container>
-      <Styled.Label>League</Styled.Label>
+      {/* <Styled.Label>League</Styled.Label> */}
       <Checkbox
         isChecked={state.includes('silver')}
         label="Silver"
@@ -36,5 +36,5 @@ export const LeagueFilters = props => {
         onClick={() => toggleFilter('placements')}
       />
     </Styled.Container>
-  );
-};
+  )
+}

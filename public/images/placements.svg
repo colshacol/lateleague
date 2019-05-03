@@ -6,12 +6,12 @@
 <g mask="url(#mask0)">
 <rect width="300" height="300" rx="60" fill="white"/>
 <rect width="300" height="300" rx="60" fill="url(#paint0_linear)"/>
-<path d="M134 237H165.5V62H134V237Z" fill="black" fill-opacity="0.5"/>
+<path opacity="0.5" d="M190.92 78H97.8V246H123.24V184.08H190.92C200.28 184.08 208.2 176.88 208.2 168.24V93.84C208.2 85.2 200.28 78 190.92 78ZM182.76 154.8C182.76 157.44 180.36 159.6 177.96 159.6H123.24V102.48H177.96C180.36 102.48 182.76 104.64 182.76 107.28V154.8Z" fill="black"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear" x1="22" y1="8.99999" x2="290" y2="287" gradientUnits="userSpaceOnUse">
-<stop offset="0.489583" stop-color="#F18537"/>
-<stop offset="0.489683" stop-color="#DA6C1C"/>
+<linearGradient id="paint0_linear" x1="15" y1="17" x2="279" y2="282" gradientUnits="userSpaceOnUse">
+<stop offset="0.510417" stop-color="#1663FA"/>
+<stop offset="0.510517" stop-color="#0E52D7"/>
 </linearGradient>
 </defs>
 </svg>

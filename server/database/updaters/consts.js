@@ -19,3 +19,19 @@ export const MMRS = {
   'silver 2': 300,
   'silver 1': 350
 }
+
+export const POST_PLACEMENTS_LEAGUES = {
+  '5-0': ['silver', '1'],
+  '4-1': ['silver', '2'],
+  '3-2': ['silver', '3'],
+  '2-3': ['bronze', '1'],
+  '1-4': ['bronze', '2'],
+  '0-5': ['bronze', '3']
+}
+
+// Silver 1: 5-0
+// Silver 2: 4-1
+// Silver 3: 3-2
+// Bronze 1: 2-3
+// Bronze 2: 1-4
+// Bronze 3: 0-5

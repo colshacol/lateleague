@@ -13,5 +13,5 @@ export const cropPlayerNames = async ({ inputPath, outputPath }) => {
     .sharpen()
     .flatten()
     .greyscale()
-    .extract(PLAYER_NAMES_CROP_OPTIONS)
+  // .extract(PLAYER_NAMES_CROP_OPTIONS)
 }

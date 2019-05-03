@@ -22,9 +22,9 @@ const handleImageBuffer = async (error, data, info) => {
 }
 
 export const post = async (request, response) => {
-  const { identifier, filename } = request.params
-  const inputPath = `uploads/${identifier}/${filename}.png`
-  const outputPath = `uploads/${identifier}/${filename}_playerNames.png`
+  const { filename } = request.params
+  const inputPath = `uploads/${filename}.png`
+  const outputPath = `uploads/${filename}_playerNames.png`
 
   response.send(request.files[0].filename)
 

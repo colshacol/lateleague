@@ -14,9 +14,8 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(morgan('dev'))
 
 const generateFilename = async (request, file, callback) => {
-  const { identifier, filename } = request.params
-  await makeDir(`uploads/${identifier}`)
-  callback(null, `${identifier}/${filename}.png`)
+  const { filename } = request.params
+  callback(null, `${filename}.png`)
 }
 
 const upload = multer({
@@ -32,7 +31,7 @@ app.get('/', (request, response) => {
 
 app.get('/players', players.get)
 
-app.post('/screenshots/:identifier/:filename', upload.any(), screenshots.post)
+app.post('/screenshots/:filename', upload.any(), screenshots.post)
 
 app.listen(3001, () => {
   console.log('listening @ http://localhost:3001')

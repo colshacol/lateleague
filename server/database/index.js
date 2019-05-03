@@ -26,7 +26,8 @@ export const getAllPlayerNames = () => {
 export const savePlayer = (player) => {
   const { name } = player
 
-  db.find({ name })
+  db.get('players')
+    .find({ name })
     .assign(player)
     .write()
 

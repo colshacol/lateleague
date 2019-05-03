@@ -11,7 +11,7 @@ export const Container = styled.div`
   padding-right: calc(((100vw - 840px) / 2) + 24px);
   z-index: 1;
 
-  background: #14142c;
+  background: #2c2c44;
   box-shadow: 0px 2px 16px -2px rgba(0, 0, 0, 0.35);
 
   small {

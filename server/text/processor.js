@@ -19,7 +19,6 @@ const filterPlayerNames = (textLines) => {
 }
 
 const extractPlayerNames = (text) => {
-  1
   const names = text.description.split('\n')
   return filterPlayerNames(names)
 }

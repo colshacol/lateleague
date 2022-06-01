@@ -27,7 +27,7 @@
     "react-router-dom": "5.0.0",
     "react-scripts": "2.1.8",
     "server": "^1.0.18",
-    "sharp": "^0.22.0",
+    "sharp": "^0.30.5",
     "string-similarity": "^3.0.0",
     "styled-components": "4.2.0"
   },
